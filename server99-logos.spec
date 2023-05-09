@@ -9,15 +9,12 @@ Source0:    	https://github.com/Server99-industries/server99-logos/archive/refs/
 License:    	GPLv2 and LGPLv2+
 BuildArch:  	noarch
 
-Obsoletes:  redhat-logos
 Obsoletes:  generic-logos < 17.0.0-5
-Provides:   redhat-logos = %{version}-%{release}
 Provides:   system-logos = %{version}-%{release}
 Provides:   fedora-logos
 
 Conflicts:  fedora-logos
 Conflicts:  anaconda-images <= 10
-Conflicts:  redhat-artwork <= 5.0.5
 BuildRequires: hardlink
 BuildRequires: 	make
 # For generating the EFI icon
