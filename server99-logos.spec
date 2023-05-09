@@ -1,6 +1,6 @@
 Name:       server99-logos
-Version:    18.0.0
-Release:    8%{?dist}
+Version:    37
+Release:    1%{?dist}
 Summary:    Icons and pictures
 
 Group:      	System Environment/Base
